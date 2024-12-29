@@ -18,7 +18,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "esModuleInterop": true,
-    "types": ["jest"], // <-- Add this line to include Jest types
+    "types": ["jest"],
   },
   "include": ["src"]
 }

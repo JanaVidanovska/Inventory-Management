@@ -1,11 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// DODAJ ONAKVI SETTINGS ZA POKE DA PRAJ TYPESCRIPT GRESKI KOKE NE DODELIME TYPE
-// PRAJ TRY CATCH
-
-
-
 enum ItemType {
   CommunicationEquipment = "Communication Equipment",
   ComputerEquipment = "Computer Equipment",
