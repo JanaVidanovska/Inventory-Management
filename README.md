@@ -45,6 +45,7 @@ Before setting up the application, ensure you have the following installed on yo
 
     ``bash
     docker-compose down
+    ``
 
 6. **Running Tests**:
     - To run backend tests, ensure that `pytest` is installed by running:
