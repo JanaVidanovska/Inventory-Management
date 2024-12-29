@@ -43,25 +43,24 @@ Before setting up the application, ensure you have the following installed on yo
 5. **Stop the application**:
     To stop the containers, run:
 
-    ``bash
+    ```bash
     docker-compose down
-    ``
+    ```
 
 6. **Running Tests**:
     - To run backend tests, ensure that `pytest` is installed by running:
-    ``bash
+    ```bash
     pip install pytest
-    ``
+    ```
       - navigate to the `backend` directory and use `pytest`:
-    ``bash
+    ```bash
     cd backend
     pytest
-    ``
-      - 
+    ```
     - To run frontend tests, ensure that `Jest` is installed by running:
-    ``bash
+    ```bash
     npm install --save-dev jest
-    ``
+    ```
       - then, navigate to the `frontend` directory and use `npm test`.
 
         
