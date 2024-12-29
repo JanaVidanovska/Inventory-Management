@@ -1,0 +1,14 @@
+node_modules/
+
+__pycache__/
+
+env/
+
+.pytest_cache/
+
+*.log
+*.db
+
+coverage/
+
+.env

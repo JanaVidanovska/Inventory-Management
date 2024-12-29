@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family:'Poppins';
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 240, 213);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%; 
+}
+
+.header {
+  text-align: center;
+}
+
+.cell {
+  text-align: center;
+  padding: 10px;
+}
+
+.button {
+  color: rgb(68, 68, 68);
+  font-family: "Poppins";
+  font-weight: bold;
+  /* background-color: rgb(148, 223, 164); */
+  border-radius: 20px;
+  border: 0px;
+  padding: 10px 15px;
+  margin: 2%;
+  
+}
+
+.add-button {
+  background-color: rgb(136, 202, 150);
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: hsl(148, 22%, 54%);
+}
+.delete-button {
+  background-color: rgb(233, 141, 141);
+  cursor: pointer;
+}
+.delete-button:hover {
+  background-color: rgb(204, 118, 129)
+}
+
+.select {
+  outline:none;
+  font-family: "Poppins";
+  width: 90%;
+  background-color: rgb(78, 78, 78);
+  color: rgb(255, 240, 213);
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+  
+}
+.select:focus {
+  outline: none; 
+  border-color: rgb(255, 240, 213);
+  box-shadow: 0 0 3px rgb(255, 240, 213);
+}
+
+.option {
+  border: 0px;
+  border-radius: 20px;
+  font-family: "Poppins", "Arial" !important;
+  padding: 10px;
+}
+
+.option:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.description {
+  font-family: "Poppins";
+  width: 90%;
+  background-color: rgb(78, 78, 78);
+  color: rgb(255, 240, 213);
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 0px;
+  
+}
+.description:focus {
+  outline: none; 
+  border-color: rgb(255, 240, 213);
+  box-shadow: 0 0 3px rgb(255, 240, 213);
+}

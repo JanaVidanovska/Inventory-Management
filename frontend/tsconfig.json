@@ -1,0 +1,34 @@
+// {
+//    "compilerOptions": {
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "target": "ES2020",
+//     "jsx": "react-jsx",
+//     "strict": true,
+//     "noEmit": true
+//   },
+  
+//   "include": [
+//     "frontend/src/**/*", 
+//     "frontend/**/*"], // Adjust this as per your project structure
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": "./",
+  },
+  "types": ["jest", "@testing-library/jest-dom"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
