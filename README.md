@@ -53,14 +53,17 @@ Before setting up the application, ensure you have the following installed on yo
     pip install pytest
     ```
       - navigate to the `backend` directory and use `pytest`:
-    ```bash
-    cd backend
-    pytest
-    ```
+      ```bash
+      cd backend
+      pytest
+      ```
     - To run frontend tests, ensure that `Jest` is installed by running:
     ```bash
     npm install --save-dev jest
     ```
-      - then, navigate to the `frontend` directory and use `npm test`.
+      - then, navigate to the `frontend` directory and use 
+        ```bash
+        npm test
+        ```
 
         
